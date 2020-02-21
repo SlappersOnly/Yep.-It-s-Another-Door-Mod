@@ -1,0 +1,42 @@
+{
+  "code": "MarkGrant.animation.CastleDoor",
+  "definition": "mods/Yep. It's Another Door Mod/CastleDoor/CastleDoor.bvh",
+  "offset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.688
+  },
+  "translation": {
+    "x": 0.0,
+    "y": 0.05,
+    "z": 0.0
+  },
+  "scale": 1.0,
+  "axismode": "XPZPYN",
+  "timelines": {
+    "tpose": {
+      "start": 0,
+      "end": 0
+    },
+    "staxel.animation.tile.Door.openInwards": {
+      "start": 0,
+      "end": 10
+    },
+    "staxel.animation.tile.Door.closeInwards": {
+      "start": 10,
+      "end": 20
+    },
+    "staxel.animation.tile.Door.openOutwards": {
+      "start": 20,
+      "end": 30
+    },
+    "staxel.animation.tile.Door.closeOutwards": {
+      "start": 30,
+      "end": 40
+    },
+    "staxel.animation.tile.Door.idle": {
+      "start": 40,
+      "end": 60
+    }
+  }
+}

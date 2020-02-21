@@ -1,0 +1,33 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "door",
+    "basic",
+    "wood",
+    "brown"
+  ],
+  "code": "MarkGrant.CastleDoor",
+  "customRendererVoxels": "mods/Yep. It's Another Door Mod/CastleDoor.qb",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 5,
+    "value": 189
+  },
+  "searchable": true,
+  "voxels": "mods/Yep. It's Another Door Mod/CastleDoor.qb",
+  "prefetchTileState": true,
+  "tileStateKind": "staxel.tileState.DoorTileState",
+  "animation": "MarkGrant.animation.CastleDoor",
+  "collision": false,
+  "attachToBelow": false,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 4,
+      "z": 5
+    }
+  },
+  "pathFindingNoCollision": true
+}
